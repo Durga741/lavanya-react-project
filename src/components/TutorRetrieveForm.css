@@ -1,0 +1,74 @@
+/* CSS for the Retrieve Form */
+.form-container {
+    width: 70%; /* Increase width to 70% */
+    max-width: 900px; /* Set a max width so it doesn't stretch too much on large screens */
+    margin: 0 auto;
+    padding: 30px; /* Increase padding for a more spacious look */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%; /* Ensure input fields take up full width */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Table styling */
+  .data-container {
+    margin-top: 30px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
