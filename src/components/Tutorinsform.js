@@ -43,7 +43,7 @@ const Tutorinsform = () => {
 
   return (
     <div className="form-container">
-      <h2>Tutor Form</h2>
+      <h2>Tutor register Form</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="batchId">Batch Id:</label><br />
